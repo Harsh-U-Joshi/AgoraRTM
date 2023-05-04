@@ -1,0 +1,19 @@
+{
+  "name": "sdk-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "agora-rtm-sdk": "latest"
+  },
+  "scripts": {
+    "dev": "vite --host --port 5173",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
